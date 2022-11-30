@@ -49,7 +49,7 @@ if __name__ == '__main__':
     num_class = config['class_num']
     feature_extract_model_name = config['feature_extract_model']
 
-    base_path = Path('/mnt/group-ai-medical-cq/private/kuantian/own_data/pfizer_data/weakly_data')
+    base_path = Path('')
 
     if feature_extract_model_name == 'resnet50_imagenet_pretrain':
         save_model_dir = os.path.join(root_dir, 'model_resnet_imagenet')
